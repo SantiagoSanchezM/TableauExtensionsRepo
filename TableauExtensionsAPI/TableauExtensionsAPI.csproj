@@ -58,8 +58,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Export CSV File.trex" />
-    <Content Include="Export CSV File - Summary.trex" />
+    <Content Include="ExportCSV\Export CSV File.trex" />
+    <Content Include="ExportCSV\Export CSV File - Summary.trex" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -69,11 +69,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="exportcsv-extension-summary.html" />
-    <Content Include="exportcsv-extension.html" />
-    <Content Include="JavaScript\exportcsv-extension.js" />
-    <Content Include="JavaScript\tableau-extensions-0.latest.js" />
-    <Content Include="JavaScript\tableau-extensions-0.latest.min.js" />
+    <Content Include="ExportCSV\exportcsv-extension-summary.html" />
+    <Content Include="ExportCSV\exportcsv-extension.html" />
+    <Content Include="ExportCSV\JavaScript\exportcsv-extension.js" />
+    <Content Include="ExportCSV\JavaScript\tableau-extensions-0.latest.js" />
+    <Content Include="ExportCSV\JavaScript\tableau-extensions-0.latest.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
